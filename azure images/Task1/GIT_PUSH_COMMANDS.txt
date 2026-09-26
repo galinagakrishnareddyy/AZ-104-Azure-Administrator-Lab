@@ -1,0 +1,18 @@
+FIRST-TIME GIT PUSH – TASK 1
+
+1. Install Git for Windows if `git --version` does not work.
+2. Create a new EMPTY GitHub repository, for example: AZ104-Task1
+   Do not initialize it with README, .gitignore, or license when you are going to push this local folder.
+3. Open Git Bash or PowerShell in this folder.
+4. Run:
+
+   git init
+   git branch -M main
+   git add .
+   git status
+   git commit -m "Add AZ-104 Task 1 evidence and documentation"
+   git remote add origin https://github.com/YOUR-USERNAME/AZ104-Task1.git
+   git remote -v
+   git push -u origin main
+
+5. Refresh GitHub and confirm README.md and screenshots/ are visible.

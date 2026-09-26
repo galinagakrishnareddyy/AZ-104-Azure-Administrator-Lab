@@ -1,0 +1,9 @@
+subscription_id      = "YOUR-AZURE-SUBSCRIPTION-ID"
+location             = "centralindia"
+admin_username       = "azureuser"
+ssh_public_key       = "ssh-rsa YOUR_PUBLIC_KEY_HERE"
+allowed_ssh_source   = "YOUR.PUBLIC.IP/32"
+
+# Set these only when you own a domain.
+enable_public_dns    = false
+public_dns_zone      = "example.com"

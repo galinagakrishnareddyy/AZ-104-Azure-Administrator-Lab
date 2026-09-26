@@ -1,0 +1,15 @@
+subscription_id      = "YOUR-AZURE-SUBSCRIPTION-ID"
+location             = "centralindia"
+
+# Must be globally unique, lowercase, 3-24 characters.
+# Example: az104student123456
+storage_account_name = "YOURUNIQUESTORAGEACCOUNT"
+
+admin_username       = "azureuser"
+
+# Example:
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA... your-key
+ssh_public_key       = "YOUR-SSH-PUBLIC-KEY"
+
+# Replace with your public IP/32 for safer SSH access.
+allowed_ssh_source   = "YOUR.PUBLIC.IP/32"
